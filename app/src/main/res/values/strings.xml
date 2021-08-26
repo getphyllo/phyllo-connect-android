@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Phyllo Sample App</string>
+    <string name="connect_all_platform_text">Connect Platform Account(s)</string>
+    <string name="connect_youtube_text">Connect YouTube using Phyllo</string>
+    <string name="connect_instagram_text">Connect Instagram using Phyllo</string>
+    <string name="existing_user_text">Existing User</string>
+    <string name="progress_default_msg">Please wait</string>
+</resources>
