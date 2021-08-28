@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
     private fun initSDK(userId: String, token: String, platformId: String? = "") {
 
         PhylloConnect.initialize(context = this@MainActivity,
-            name = "JustRise",
+            name = "TestApp",
             userId = userId,
             token = token,
             platformId = platformId,
