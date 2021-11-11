@@ -1,5 +1,5 @@
 {
-  "clientId": ">>Please provide Your Client Id>>",
-  "clientSecret": ">>Please provide Your Client Secret>>",
+  "clientId": "<<Please provide Your Client Id>>",
+  "clientSecret": "<<Please provide Your Client Secret>>",
   "environment": "sandbox"
 }

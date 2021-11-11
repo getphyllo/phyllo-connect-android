@@ -64,7 +64,7 @@ object ApiServiceProvider {
             }
         }
 
-        val userRequest = TokenRequest(userId, redirectUrl)
+        val userRequest = TokenRequest(userId)
         val call: Call<TokenResponse> = connectService.generateToken( authorization,body = userRequest)
         call.enqueue(connectServiceCallback)
 

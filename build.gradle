@@ -16,9 +16,7 @@ buildscript {
 allprojects {
     repositories {
         google()
-        maven {
-            url "${artifactory_contextUrl}"
-        }
+        mavenCentral()
     }
 }
 
