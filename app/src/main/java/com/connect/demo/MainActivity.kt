@@ -98,11 +98,11 @@ class MainActivity : AppCompatActivity() {
             environment = ConfigProvider.getEnvironment(),
             callback = object : ConnectCallback {
 
-                override fun onAccountConnected(platformId: String?, userId: String?) {
+                override fun onAccountConnected(accountId: String?,platformId: String?, userId: String?) {
                     Log.d(TAG, "onAccountConnected $platformId  $userId")
                 }
 
-                override fun onAccountDisconnected(platformId: String?, userId: String?) {
+                override fun onAccountDisconnected(accountId: String?,platformId: String?, userId: String?) {
                     Log.d(TAG, "onAccountDisconnected $platformId  $userId")
                 }
 
@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity() {
                     Log.d(TAG, "on Error  errorMsg")
                 }
 
-                override fun onTokenExpired() {
+                override fun onTokenExpired(userId: String?) {
                     Log.d(TAG, "onTokenExpired  ")
                 }
 
@@ -118,12 +118,12 @@ class MainActivity : AppCompatActivity() {
                     Log.d(TAG, "onEvent  $event")
                 }
 
-                override fun onExit() {
+                override fun onExit(reason: String?, userId: String?) {
                     Log.d(TAG, "onExit ")
                 }
             })
 
-        PhylloConnect.startSDK()
+        PhylloConnect.open()
     }
 
     private fun createNewUser(usr: String, extId: String, platformId: String = "") {
