@@ -91,10 +91,10 @@ class MainActivity : AppCompatActivity() {
     private fun initSDK(userId: String, token: String, platformId: String? = "") {
 
         PhylloConnect.initialize(context = this@MainActivity,
-            name = "TestApp",
+            clientDisplayName = "TestApp",
             userId = userId,
             token = token,
-            platformId = platformId,
+            workPlatformId = platformId,
             environment = ConfigProvider.getEnvironment(),
             callback = object : ConnectCallback {
 
@@ -106,16 +106,8 @@ class MainActivity : AppCompatActivity() {
                     Log.d(TAG, "onAccountDisconnected $platformId  $userId")
                 }
 
-                override fun onError(errorMsg: String?) {
-                    Log.d(TAG, "on Error  errorMsg")
-                }
-
                 override fun onTokenExpired(userId: String?) {
                     Log.d(TAG, "onTokenExpired  ")
-                }
-
-                override fun onEvent(event: PhylloConnect.EVENT) {
-                    Log.d(TAG, "onEvent  $event")
                 }
 
                 override fun onExit(reason: String?, userId: String?) {
