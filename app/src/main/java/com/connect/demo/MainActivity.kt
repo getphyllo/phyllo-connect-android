@@ -113,6 +113,14 @@ class MainActivity : AppCompatActivity() {
                 override fun onExit(reason: String?, userId: String?) {
                     Log.d(TAG, "onExit ")
                 }
+
+                override fun onConnectionFailure(
+                    reason: String?,
+                    user_id: String?,
+                    work_platform_id: String?
+                ) {
+                    super.onConnectionFailure(reason, user_id, work_platform_id)
+                }
             })
 
         PhylloConnect.open()
