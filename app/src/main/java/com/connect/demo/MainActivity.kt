@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
             token = token,
             workPlatformId = platformId,
             environment = ConfigProvider.getEnvironment(),
-            callback = object : ConnectCallback {
+            callback = object : ConnectCallback() {
 
                 override fun onAccountConnected(accountId: String?,platformId: String?, userId: String?) {
                     Log.d(TAG, "onAccountConnected $platformId  $userId")
