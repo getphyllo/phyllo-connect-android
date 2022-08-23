@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatCheckBox
@@ -99,18 +100,22 @@ class MainActivity : AppCompatActivity() {
             callback = object : ConnectCallback() {
 
                 override fun onAccountConnected(accountId: String?,platformId: String?, userId: String?) {
+                    Toast.makeText(this@MainActivity,"onAccountConnected $platformId  $userId",Toast.LENGTH_LONG).show()
                     Log.d(TAG, "onAccountConnected $platformId  $userId")
                 }
 
                 override fun onAccountDisconnected(accountId: String?,platformId: String?, userId: String?) {
+                    Toast.makeText(this@MainActivity,"onAccountDisconnected $platformId  $userId",Toast.LENGTH_LONG).show()
                     Log.d(TAG, "onAccountDisconnected $platformId  $userId")
                 }
 
                 override fun onTokenExpired(userId: String?) {
+                    Toast.makeText(this@MainActivity,"onTokenExpired   $userId",Toast.LENGTH_LONG).show()
                     Log.d(TAG, "onTokenExpired  ")
                 }
 
                 override fun onExit(reason: String?, userId: String?) {
+                    Toast.makeText(this@MainActivity,"onExit ",Toast.LENGTH_LONG).show()
                     Log.d(TAG, "onExit ")
                 }
 
@@ -119,7 +124,8 @@ class MainActivity : AppCompatActivity() {
                     user_id: String?,
                     work_platform_id: String?
                 ) {
-                    super.onConnectionFailure(reason, user_id, work_platform_id)
+                    Log.d(TAG, "onConnectionFailure $user_id  $work_platform_id")
+                    Toast.makeText(this@MainActivity,"onConnectionFailure $user_id  $work_platform_id",Toast.LENGTH_LONG).show()
                 }
             })
 
