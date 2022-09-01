@@ -96,22 +96,22 @@ class MainActivity : AppCompatActivity() {
             token = token,
             workPlatformId = platformId,
             environment = ConfigProvider.getEnvironment(),
-            callback = object : ConnectCallback {
+            callback = object : ConnectCallback() {
 
-                override fun onAccountConnected(accountId: String?,platformId: String?, userId: String?) {
-                    Log.d(TAG, "onAccountConnected $platformId  $userId")
+                override fun onAccountConnected(account_id: String?,work_platform_id: String?, user_id: String?) {
+                    Log.d(TAG, "onAccountConnected $account_id $work_platform_id  $user_id")
                 }
 
-                override fun onAccountDisconnected(accountId: String?,platformId: String?, userId: String?) {
-                    Log.d(TAG, "onAccountDisconnected $platformId  $userId")
+                override fun onAccountDisconnected(account_id: String?,work_platform_id: String?, user_id: String?) {
+                    Log.d(TAG, "onAccountDisconnected $account_id $work_platform_id  $user_id")
                 }
 
-                override fun onTokenExpired(userId: String?) {
-                    Log.d(TAG, "onTokenExpired  ")
+                override fun onTokenExpired(user_id: String?) {
+                    Log.d(TAG, "onTokenExpired  $user_id")
                 }
 
-                override fun onExit(reason: String?, userId: String?) {
-                    Log.d(TAG, "onExit ")
+                override fun onExit(reason:String?, user_id: String?) {
+                    Log.d(TAG, "onExit $user_id $reason")
                 }
             })
 
