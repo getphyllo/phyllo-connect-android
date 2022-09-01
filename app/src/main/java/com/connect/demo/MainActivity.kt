@@ -111,8 +111,8 @@ class MainActivity : AppCompatActivity() {
                 ) {
                     Log.d(TAG, "onAccountConnected $account_id $work_platform_id  $user_id")
                     showTestDialog(
-                        "Connected",
-                        " Account Id : $account_id PlatformId : $work_platform_id  UserId : $user_id"
+                        "onAccountConnected",
+                        "account_id : $account_id work_platform_id : $work_platform_id  user_id : $user_id"
                     )
                 }
 
@@ -123,19 +123,27 @@ class MainActivity : AppCompatActivity() {
                 ) {
                     Log.d(TAG, "onAccountDisconnected $account_id $work_platform_id  $user_id")
                     showTestDialog(
-                        "DisConnected",
-                        " Account Id : $account_id PlatformId : $work_platform_id  UserId : $user_id"
+                        "onAccountDisconnected",
+                        "account_id : $account_id work_platform_id : $work_platform_id  user_id : $user_id"
                     )
                 }
 
                 override fun onTokenExpired(user_id: String?) {
                     Log.d(TAG, "onTokenExpired  $user_id")
-                    showTestDialog("TokenExpired", " UserId : $user_id")
+                    showTestDialog("onTokenExpired", " user_id : $user_id")
                 }
 
                 override fun onExit(reason: String?, user_id: String?) {
                     Log.d(TAG, "onExit $user_id $reason")
-                    showTestDialog("Exit", " UserId : $user_id")
+                    showTestDialog("onExit", " user_id : $user_id")
+                }
+
+                override fun onConnectionFailure(
+                    reason: String?,
+                    user_id: String?,
+                    work_platform_id: String?
+                ) {
+                    showTestDialog("onConnectionFailure", " reason : $reason user_id : $user_id work_platform_id : $work_platform_id")
                 }
             })
 
