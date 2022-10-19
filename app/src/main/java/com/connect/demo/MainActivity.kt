@@ -224,7 +224,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showTestDialog(title: String?, desc: String?) {
-        if (Build.VERSION.SDK_INT >= 23) {
+        /*if (Build.VERSION.SDK_INT >= 23) {
             if (!Settings.canDrawOverlays(this@MainActivity)) {
                 val intent = Intent(
                     Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
@@ -238,7 +238,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             mTestDialog = ConnectDialog(this@MainActivity)
             mTestDialog?.showDialog(title, desc)
-        }
+        }*/
 
     }
 }
