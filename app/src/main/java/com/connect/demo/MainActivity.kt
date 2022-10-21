@@ -95,60 +95,63 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initSDK(userId: String, token: String, platformId: String? = "") {
-        var map=hashMapOf<String,Any>(
+        var callback = object : ConnectCallback() {
+
+            override fun onAccountConnected(
+                account_id: String?,
+                work_platform_id: String?,
+                user_id: String?
+            ) {
+                Log.d(TAG, "onAccountConnected $account_id $work_platform_id  $user_id")
+                showTestDialog(
+                    "onAccountConnected",
+                    "account_id : $account_id work_platform_id : $work_platform_id  user_id : $user_id"
+                )
+            }
+
+            override fun onAccountDisconnected(
+                account_id: String?,
+                work_platform_id: String?,
+                user_id: String?
+            ) {
+                Log.d(TAG, "onAccountDisconnected $account_id $work_platform_id  $user_id")
+                showTestDialog(
+                    "onAccountDisconnected",
+                    "account_id : $account_id work_platform_id : $work_platform_id  user_id : $user_id"
+                )
+            }
+
+            override fun onTokenExpired(user_id: String?) {
+                Log.d(TAG, "onTokenExpired  $user_id")
+                showTestDialog("onTokenExpired", " user_id : $user_id")
+            }
+
+            override fun onExit(reason: String?, user_id: String?) {
+                Log.d(TAG, "onExit $user_id $reason")
+                showTestDialog("onExit", " user_id : $user_id")
+            }
+
+            override fun onConnectionFailure(
+                reason: String?,
+                user_id: String?,
+                work_platform_id: String?
+            ) {
+                showTestDialog(
+                    "onConnectionFailure",
+                    " reason : $reason user_id : $user_id work_platform_id : $work_platform_id"
+                )
+            }
+        }
+        var map=hashMapOf<String,Any?>(
             "clientDisplayName" to "Phyllo Connect",
             "token" to token,
-            "workPlatformId" to platformId!!,
+            "workPlatformId" to platformId,
             "userId" to userId,
             "environment" to ConfigProvider.getEnvironment(),
+            "callback" to callback,
             "singleAccount" to false
         )
-        PhylloConnect.initialize(context = this@MainActivity,
-            map,
-            callback = object : ConnectCallback() {
-
-                override fun onAccountConnected(
-                    account_id: String?,
-                    work_platform_id: String?,
-                    user_id: String?
-                ) {
-                    Log.d(TAG, "onAccountConnected $account_id $work_platform_id  $user_id")
-                    showTestDialog(
-                        "onAccountConnected",
-                        "account_id : $account_id work_platform_id : $work_platform_id  user_id : $user_id"
-                    )
-                }
-
-                override fun onAccountDisconnected(
-                    account_id: String?,
-                    work_platform_id: String?,
-                    user_id: String?
-                ) {
-                    Log.d(TAG, "onAccountDisconnected $account_id $work_platform_id  $user_id")
-                    showTestDialog(
-                        "onAccountDisconnected",
-                        "account_id : $account_id work_platform_id : $work_platform_id  user_id : $user_id"
-                    )
-                }
-
-                override fun onTokenExpired(user_id: String?) {
-                    Log.d(TAG, "onTokenExpired  $user_id")
-                    showTestDialog("onTokenExpired", " user_id : $user_id")
-                }
-
-                override fun onExit(reason: String?, user_id: String?) {
-                    Log.d(TAG, "onExit $user_id $reason")
-                    showTestDialog("onExit", " user_id : $user_id")
-                }
-
-                override fun onConnectionFailure(
-                    reason: String?,
-                    user_id: String?,
-                    work_platform_id: String?
-                ) {
-                    showTestDialog("onConnectionFailure", " reason : $reason user_id : $user_id work_platform_id : $work_platform_id")
-                }
-            })
+        PhylloConnect.initialize(context = this@MainActivity, map)
 
         PhylloConnect.open()
     }
