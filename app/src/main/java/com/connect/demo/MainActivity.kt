@@ -90,7 +90,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initSDK(userId: String, token: String, platformId: String? = "") {
+<<<<<<< Updated upstream
 
+=======
+        var map=hashMapOf<String,Any>(
+            "clientDisplayName" to "Phyllo Connect",
+            "token" to token,
+            "workPlatformId" to platformId!!,
+            "userId" to userId,
+            "environment" to ConfigProvider.getEnvironment(),
+            "singleAccount" to true
+        )
+>>>>>>> Stashed changes
         PhylloConnect.initialize(context = this@MainActivity,
             clientDisplayName = "TestApp",
             userId = userId,
