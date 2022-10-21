@@ -1,10 +1,13 @@
 package com.connect.demo
 
+import android.content.Intent
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
+import android.provider.Settings
 import android.text.TextUtils
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatCheckBox
@@ -12,6 +15,7 @@ import com.getphyllo.ConnectCallback
 import com.getphyllo.PhylloConnect
 import com.getphyllo.utils.LogUtils
 import com.google.gson.Gson
+
 
 // Should not change the value of REDIRECT_URI
 const val REDIRECT_URI = "com.getphyllo://auth"
@@ -28,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         val TAG = LogUtils.makeLogTag(MainActivity::class.java)
     }
 
+    private var mTestDialog: ConnectDialog? = null
     private var mDialog: ProgressDialog? = null
     private var mUserAvailCheck: AppCompatCheckBox? = null
     private var mConnectPlatformsView: AppCompatButton? = null
@@ -90,55 +95,63 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initSDK(userId: String, token: String, platformId: String? = "") {
-<<<<<<< Updated upstream
+        var callback = object : ConnectCallback() {
 
-=======
-        var map=hashMapOf<String,Any>(
+            override fun onAccountConnected(
+                account_id: String?,
+                work_platform_id: String?,
+                user_id: String?
+            ) {
+                Log.d(TAG, "onAccountConnected $account_id $work_platform_id  $user_id")
+                showTestDialog(
+                    "onAccountConnected",
+                    "account_id : $account_id work_platform_id : $work_platform_id  user_id : $user_id"
+                )
+            }
+
+            override fun onAccountDisconnected(
+                account_id: String?,
+                work_platform_id: String?,
+                user_id: String?
+            ) {
+                Log.d(TAG, "onAccountDisconnected $account_id $work_platform_id  $user_id")
+                showTestDialog(
+                    "onAccountDisconnected",
+                    "account_id : $account_id work_platform_id : $work_platform_id  user_id : $user_id"
+                )
+            }
+
+            override fun onTokenExpired(user_id: String?) {
+                Log.d(TAG, "onTokenExpired  $user_id")
+                showTestDialog("onTokenExpired", " user_id : $user_id")
+            }
+
+            override fun onExit(reason: String?, user_id: String?) {
+                Log.d(TAG, "onExit $user_id $reason")
+                showTestDialog("onExit", " user_id : $user_id")
+            }
+
+            override fun onConnectionFailure(
+                reason: String?,
+                user_id: String?,
+                work_platform_id: String?
+            ) {
+                showTestDialog(
+                    "onConnectionFailure",
+                    " reason : $reason user_id : $user_id work_platform_id : $work_platform_id"
+                )
+            }
+        }
+        var map=hashMapOf<String,Any?>(
             "clientDisplayName" to "Phyllo Connect",
             "token" to token,
-            "workPlatformId" to platformId!!,
+            "workPlatformId" to platformId,
             "userId" to userId,
             "environment" to ConfigProvider.getEnvironment(),
-            "singleAccount" to true
+            "callback" to callback,
+            "singleAccount" to false
         )
->>>>>>> Stashed changes
-        PhylloConnect.initialize(context = this@MainActivity,
-            clientDisplayName = "TestApp",
-            userId = userId,
-            token = token,
-            workPlatformId = platformId,
-            environment = ConfigProvider.getEnvironment(),
-            callback = object : ConnectCallback() {
-
-                override fun onAccountConnected(accountId: String?,platformId: String?, userId: String?) {
-                    Toast.makeText(this@MainActivity,"onAccountConnected $platformId  $userId",Toast.LENGTH_LONG).show()
-                    Log.d(TAG, "onAccountConnected $platformId  $userId")
-                }
-
-                override fun onAccountDisconnected(accountId: String?,platformId: String?, userId: String?) {
-                    Toast.makeText(this@MainActivity,"onAccountDisconnected $platformId  $userId",Toast.LENGTH_LONG).show()
-                    Log.d(TAG, "onAccountDisconnected $platformId  $userId")
-                }
-
-                override fun onTokenExpired(userId: String?) {
-                    Toast.makeText(this@MainActivity,"onTokenExpired   $userId",Toast.LENGTH_LONG).show()
-                    Log.d(TAG, "onTokenExpired  ")
-                }
-
-                override fun onExit(reason: String?, userId: String?) {
-                    Toast.makeText(this@MainActivity,"onExit ",Toast.LENGTH_LONG).show()
-                    Log.d(TAG, "onExit ")
-                }
-
-                override fun onConnectionFailure(
-                    reason: String?,
-                    user_id: String?,
-                    work_platform_id: String?
-                ) {
-                    Log.d(TAG, "onConnectionFailure $user_id  $work_platform_id")
-                    Toast.makeText(this@MainActivity,"onConnectionFailure $user_id  $work_platform_id",Toast.LENGTH_LONG).show()
-                }
-            })
+        PhylloConnect.initialize(context = this@MainActivity, map)
 
         PhylloConnect.open()
     }
@@ -211,5 +224,24 @@ class MainActivity : AppCompatActivity() {
             it.readText()
         }
         return Gson().fromJson(jsonString, Config::class.java)
+    }
+
+    private fun showTestDialog(title: String?, desc: String?) {
+        /*if (Build.VERSION.SDK_INT >= 23) {
+            if (!Settings.canDrawOverlays(this@MainActivity)) {
+                val intent = Intent(
+                    Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                    Uri.parse("package:$packageName")
+                )
+                startActivityForResult(intent, 1234)
+            } else {
+                mTestDialog = ConnectDialog(this@MainActivity)
+                mTestDialog?.showDialog(title, desc)
+            }
+        } else {
+            mTestDialog = ConnectDialog(this@MainActivity)
+            mTestDialog?.showDialog(title, desc)
+        }*/
+
     }
 }
