@@ -1,0 +1,2 @@
+com/connect/demo/BuildConfig.java
+ com.connect.demo.BuildConfig

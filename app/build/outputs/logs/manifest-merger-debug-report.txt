@@ -1,0 +1,304 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:2:1-38:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3ddb56fc74a2b0992123ece8d5219a4e/jetified-fragment-ktx-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3ab09c00f63ed99a668ad94b1bc21c0e/jetified-activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/84a7591cac1b7bd031923ab49b6a2f1a/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/185152b8ce706c6ee9cd887ed14e74a7/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d6bf03cccf2ce1bdf9d88594c96c9224/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9a81a5d459b20a8902028b5484eb7e5f/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/e658cce45e39e91aab2b55dc1f433340/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/081bfef6e27cb982b7da6019ef286ac9/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/55966ac73bf0e097688f10f98cf83c97/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/20289e33d1da0350235726810ca8b245/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/a85b037172c8ffb49a28159ec99281fd/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/f292150196a7ba948bebc06096bf8cbb/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/aad590b02fc4bdc55e720b81791b9a56/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/387cfae884995c7e528511b9ed48e13d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/1a0385a816d1f1d3f6ef0b37f3e6b2cb/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/517ce9e63117055dbed341b22bc161bf/browser-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/6368997cef66e1bf6e12e8f5c1e1db55/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/b5276c5b75007241fde7c05b58f879fa/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/bf39541628788e1f3b8412fc34e31f39/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/99a82d214e77008dd92c3d4b28c0ef0c/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3355cb86e446a58578e9605e18b559b6/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/83832ac2b8cc1ba5b226e4604710fe78/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/17a434511223c30f1449099fc069f601/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/bfce32ca3b654fe751b00ec04bb2fad9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/67edcd56c619de0defb91fc37085cc6d/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/2d9959f3a90288d3a16c8d3481853e50/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:6:5-21:19
+MERGED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:14:5-36:19
+MERGED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:14:5-36:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:10:9-52
+	android:icon
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:8:9-47
+	android:allowBackup
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:7:9-35
+	android:networkSecurityConfig
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:14:18-70
+	android:theme
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:12:9-51
+activity#com.connect.demo.MainActivity
+ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:13:9-20:20
+	android:exported
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+MERGED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3ddb56fc74a2b0992123ece8d5219a4e/jetified-fragment-ktx-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3ddb56fc74a2b0992123ece8d5219a4e/jetified-fragment-ktx-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3ab09c00f63ed99a668ad94b1bc21c0e/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3ab09c00f63ed99a668ad94b1bc21c0e/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/84a7591cac1b7bd031923ab49b6a2f1a/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/84a7591cac1b7bd031923ab49b6a2f1a/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/185152b8ce706c6ee9cd887ed14e74a7/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/185152b8ce706c6ee9cd887ed14e74a7/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d6bf03cccf2ce1bdf9d88594c96c9224/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d6bf03cccf2ce1bdf9d88594c96c9224/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9a81a5d459b20a8902028b5484eb7e5f/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9a81a5d459b20a8902028b5484eb7e5f/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/e658cce45e39e91aab2b55dc1f433340/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/e658cce45e39e91aab2b55dc1f433340/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/081bfef6e27cb982b7da6019ef286ac9/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/081bfef6e27cb982b7da6019ef286ac9/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/55966ac73bf0e097688f10f98cf83c97/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/55966ac73bf0e097688f10f98cf83c97/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/20289e33d1da0350235726810ca8b245/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/20289e33d1da0350235726810ca8b245/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/a85b037172c8ffb49a28159ec99281fd/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/a85b037172c8ffb49a28159ec99281fd/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/f292150196a7ba948bebc06096bf8cbb/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/f292150196a7ba948bebc06096bf8cbb/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/aad590b02fc4bdc55e720b81791b9a56/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/aad590b02fc4bdc55e720b81791b9a56/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/387cfae884995c7e528511b9ed48e13d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/387cfae884995c7e528511b9ed48e13d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/1a0385a816d1f1d3f6ef0b37f3e6b2cb/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/1a0385a816d1f1d3f6ef0b37f3e6b2cb/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/517ce9e63117055dbed341b22bc161bf/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/517ce9e63117055dbed341b22bc161bf/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/6368997cef66e1bf6e12e8f5c1e1db55/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/6368997cef66e1bf6e12e8f5c1e1db55/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/b5276c5b75007241fde7c05b58f879fa/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/b5276c5b75007241fde7c05b58f879fa/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/bf39541628788e1f3b8412fc34e31f39/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/bf39541628788e1f3b8412fc34e31f39/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/99a82d214e77008dd92c3d4b28c0ef0c/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/99a82d214e77008dd92c3d4b28c0ef0c/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3355cb86e446a58578e9605e18b559b6/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3355cb86e446a58578e9605e18b559b6/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/83832ac2b8cc1ba5b226e4604710fe78/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/83832ac2b8cc1ba5b226e4604710fe78/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/17a434511223c30f1449099fc069f601/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/17a434511223c30f1449099fc069f601/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/bfce32ca3b654fe751b00ec04bb2fad9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/bfce32ca3b654fe751b00ec04bb2fad9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/67edcd56c619de0defb91fc37085cc6d/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/67edcd56c619de0defb91fc37085cc6d/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/2d9959f3a90288d3a16c8d3481853e50/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/2d9959f3a90288d3a16c8d3481853e50/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:12:22-64
+activity#com.getphyllo.activities.ChromeTabActForWeb
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:15:9-20:20
+	android:screenOrientation
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:18:13-49
+	android:exported
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:19:13-53
+	android:name
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:16:13-71
+activity#com.getphyllo.activities.ConnectWebActivity
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:21:9-35:20
+	android:screenOrientation
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:25:13-49
+	android:launchMode
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:24:13-43
+	android:exported
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:23:13-36
+	android:theme
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:26:13-53
+	android:name
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:22:13-71
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/phyllo_deeplink_scheme1
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:27:13-34:29
+action#android.intent.action.VIEW
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:28:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:30:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:31:17-78
+	android:name
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:31:27-75
+data
+ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:33:17-74
+	android:scheme
+		ADDED from [com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:33:23-71
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

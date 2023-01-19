@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.connect.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:5:5-77
+11-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:11:5-79
+12-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:11:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:12:5-67
+13-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:12:22-64
+14
+15    <application
+15-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:6:5-21:19
+16        android:allowBackup="true"
+16-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:7:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/phyllo_app_icon"
+18-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:8:9-47
+19        android:label="@string/app_name"
+19-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:9:9-41
+20        android:networkSecurityConfig="@xml/security_config"
+20-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:14:18-70
+21        android:roundIcon="@mipmap/phyllo_app_icon"
+21-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:10:9-52
+22        android:supportsRtl="true"
+22-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:11:9-35
+23        android:theme="@style/Theme.ConnectSample" >
+23-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:12:9-51
+24        <activity
+24-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:13:9-20:20
+25            android:name="com.connect.demo.MainActivity"
+25-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:13:19-47
+26            android:exported="true" >
+26-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:14:13-36
+27            <intent-filter>
+27-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:15:13-19:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:16:17-69
+28-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:16:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:18:17-77
+30-->/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/AndroidManifest.xml:18:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:15:9-20:20
+34            android:name="com.getphyllo.activities.ChromeTabActForWeb"
+34-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:16:13-71
+35            android:exported="true"
+35-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:17:13-36
+36            android:screenOrientation="portrait"
+36-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:18:13-49
+37            android:theme="@style/sdkActionBarTheme" >
+37-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:19:13-53
+38        </activity>
+39        <activity
+39-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:21:9-35:20
+40            android:name="com.getphyllo.activities.ConnectWebActivity"
+40-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:22:13-71
+41            android:exported="true"
+41-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:23:13-36
+42            android:launchMode="singleTop"
+42-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:24:13-43
+43            android:screenOrientation="portrait"
+43-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:25:13-49
+44            android:theme="@style/sdkActionBarTheme" >
+44-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:26:13-53
+45            <intent-filter>
+45-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:27:13-34:29
+46                <action android:name="android.intent.action.VIEW" />
+46-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:28:17-69
+46-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:28:25-66
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:30:17-76
+48-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:30:27-73
+49                <category android:name="android.intent.category.BROWSABLE" />
+49-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:31:17-78
+49-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:31:27-75
+50
+51                <data android:scheme="@string/phyllo_deeplink_scheme1" />
+51-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:33:17-74
+51-->[com.getphyllo:phyllo-connect:0.3.2.1-SNAPSHOT] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/01b3721195f12ccdf69212d401dd309b/jetified-phyllo-connect-0.3.2.1-SNAPSHOT/AndroidManifest.xml:33:23-71
+52            </intent-filter>
+53        </activity>
+54
+55        <provider
+55-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+56            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+57            android:authorities="com.connect.demo.lifecycle-process"
+57-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+58            android:exported="false"
+58-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+59            android:multiprocess="true" />
+59-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/pankajpatel/.gradle/caches/transforms-2/files-2.1/3a8027526ad8c4c8ab81ff9bc549ce37/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+60    </application>
+61
+62</manifest>

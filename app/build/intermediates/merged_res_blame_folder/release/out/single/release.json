@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_phyllo_app_icon.png.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/mipmap-xxhdpi/phyllo_app_icon.png"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_phyllo_app_icon.png.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/mipmap-xxxhdpi/phyllo_app_icon.png"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/layout_layout_progress_dialog.xml.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/layout/layout_progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/drawable_btn_bg.xml.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/drawable/btn_bg.xml"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/mipmap-xhdpi_phyllo_app_icon.png.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/mipmap-xhdpi/phyllo_app_icon.png"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/generated/res/pngs/release/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/layout_layout_connect_dialog.xml.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/layout/layout_connect_dialog.xml"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/mipmap-hdpi_phyllo_app_icon.png.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/mipmap-hdpi/phyllo_app_icon.png"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/build/intermediates/res/merged/release/mipmap-mdpi_phyllo_app_icon.png.flat",
+        "source": "/Users/pankajpatel/Desktop/Work/Phyllo/Phyllo_Android/phyllo-connect-android/app/src/main/res/mipmap-mdpi/phyllo_app_icon.png"
+    }
+]
