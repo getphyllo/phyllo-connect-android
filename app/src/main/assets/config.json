@@ -1,0 +1,5 @@
+{
+  "clientId": "<client id here>",
+  "clientSecret": "<client secret here>",
+  "environment": "sandbox"
+}
