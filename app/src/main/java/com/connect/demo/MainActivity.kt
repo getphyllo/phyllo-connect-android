@@ -133,12 +133,12 @@ class MainActivity : AppCompatActivity() {
 
             override fun onConnectionFailure(
                 reason: String?,
-                user_id: String?,
-                work_platform_id: String?
+                work_platform_id: String?,
+                user_id: String?
             ) {
                 showTestDialog(
                     "onConnectionFailure",
-                    " reason : $reason user_id : $user_id work_platform_id : $work_platform_id"
+                    " reason : $reason work_platform_id : $work_platform_id user_id : $user_id"
                 )
             }
         }
@@ -149,11 +149,14 @@ class MainActivity : AppCompatActivity() {
             "userId" to userId,
             "environment" to ConfigProvider.getEnvironment(),
             "callback" to callback,
-            "singleAccount" to false
+            "singleAccount" to true
         )
         PhylloConnect.initialize(context = this@MainActivity, map)
 
         PhylloConnect.open()
+
+        LogUtils.LOGD("Version Details", PhylloConnect.Version().toString())
+
     }
 
     private fun createNewUser(usr: String, extId: String, platformId: String = "") {
@@ -225,9 +228,8 @@ class MainActivity : AppCompatActivity() {
         }
         return Gson().fromJson(jsonString, Config::class.java)
     }
-
     private fun showTestDialog(title: String?, desc: String?) {
-        /*if (Build.VERSION.SDK_INT >= 23) {
+        if (Build.VERSION.SDK_INT >= 23) {
             if (!Settings.canDrawOverlays(this@MainActivity)) {
                 val intent = Intent(
                     Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
@@ -241,7 +243,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             mTestDialog = ConnectDialog(this@MainActivity)
             mTestDialog?.showDialog(title, desc)
-        }*/
-
+        }
     }
+
 }
